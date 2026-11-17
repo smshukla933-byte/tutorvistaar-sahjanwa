@@ -1,152 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tutor Vistaar Sahjanwa - Home Tuition</title>
+<title>Tutor Vistaar - Home Tuition in Sahjanwa Gorakhpur</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif;}
-body{background:#f8fbff;}
-.header{display:flex;justify-content:space-between;align-items:center;padding:12px 15px;background:white;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
-.logo{display:flex;align-items:center;gap:8px;}
-.logo img{width:40px;height:40px;border-radius:8px;}
-.logo-text b{display:block;font-size:18px;color:#0a1931;}
-.logo-text span{font-size:13px;color:gray;}
-.hero{margin:12px;background:linear-gradient(90deg,#ff8a00,#2b5bff);color:white;padding:20px;text-align:center;border-radius:20px;}
-.hero h1{font-size:22px;line-height:1.3;}
-.hero p{font-size:13px;margin-top:8px;opacity:0.95;}
-.main-title{text-align:center;padding:20px 10px 10px;}
-.main-title h2{font-size:22px;color:#0a1931;}
-.main-title p{font-size:13px;color:gray;margin-top:5px;}
-.cards{display:flex;gap:12px;padding:12px;}
-.card{flex:1;padding:20px 10px;border-radius:20px;text-align:center;color:white;cursor:pointer;text-decoration:none;display:block;}
-.card-blue{background:#1877ff;}
-.card-orange{background:#ff7b00;}
-.card h3{margin:10px 0 5px;font-size:16px;}
-.card p{font-size:12px;line-height:1.3;}
-.form-section{margin:15px 12px;background:white;padding:18px;border-radius:16px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:none;}
-.form-section.active{display:block;animation:fade 0.3s;}
-@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-.form-section h3{color:#0a1931;margin-bottom:10px;}
-.form-section input{width:100%;padding:12px;margin:7px 0;border:1px solid #ddd;border-radius:10px;font-size:14px;}
-.form-section button{width:100%;padding:13px;background:#1877ff;color:white;border:none;border-radius:10px;font-size:16px;margin-top:10px;font-weight:bold;}
-.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:white;display:flex;justify-content:space-around;padding:10px 0 15px;box-shadow:0 -2px 10px rgba(0,0,0,0.1);z-index:99;}
-.bottom-nav a{text-decoration:none;color:#333;font-size:12px;text-align:center;}
+body{margin:0;font-family:Arial,sans-serif;background:#F8F9FA;color:#222;padding-bottom:70px}
+.header{background:#0B5ED7;color:white;padding:14px;text-align:center;font-size:20px;font-weight:bold}
+.hero{text-align:center;padding:20px 15px;background:white}
+.hero h1{font-size:26px;margin:10px 0}
+.hero p{color:#555;font-size:16px}
+.btn{display:block;background:#25D366;color:white;text-decoration:none;padding:14px;border-radius:12px;font-weight:bold;text-align:center;margin:15px;font-size:17px}
+.card{background:white;margin:15px;padding:18px;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.card h2{margin:0 0 10px 0;font-size:20px}
+.card p,.card li{font-size:15px;color:#444;line-height:1.6}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:white;display:flex;border-top:1px solid #ddd}
+.bottom a{flex:1;text-align:center;padding:12px 0;text-decoration:none;color:#0B5ED7;font-weight:bold;font-size:14px}
 </style>
 </head>
 <body>
 
-<div class="header">
-<div class="logo">
-<img src="logo.png" onerror="this.src='https://via.placeholder.com/40/1877ff/fff?text=TV'">
-<div class="logo-text"><b>Tutor Vistaar</b><span>Sahjanwa</span></div>
-</div>
-<div style="font-size:12px;color:#1877ff;font-weight:bold;">📞 9580712072</div>
-</div>
+<div class="header">📚 Tutor Vistaar - Sahjanwa</div>
 
 <div class="hero">
 <h1>Home Tuition in<br>Sahjanwa Gorakhpur</h1>
 <p>Quality home tutoring • Experienced teachers</p>
 </div>
+
 <!-- SIR PHOTO -->
 <div style="text-align:center; margin-top:15px;">
-  <img src="IMG-20261027-WA0000.jpg" style="width:170px; height:170px; object-fit:cover; border-radius:50%; border:4px solid #0B5ED7;">
-  <h3 style="margin:8px 0 0 0;">Sumit Sir</h3>
-  <p style="margin:2px 0; color:#555; font-size:14px;">Founder - Tutor Vistaar | Home Tuition Expert</p>
-</div><p style="margin:2px 0; color:#0B5ED7; font-weight:bold; font-size:14px;">5+ Saal Experience | 100+ Students Padha Chuke</p><!-- FREE DEMO SECTION - Tutor Vistaar -->
-<div style="background:#FFF3CD; border:2px solid #FFB300; border-radius:16px; padding:18px; margin:15px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
-  <h2 style="margin:0; font-size:22px; color:#1A1A1A;">🎁 2 Day FREE Demo Class</h2>
-  <p style="margin:8px 0 14px 0; color:#555; font-size:15px;">Pehle padh ke dekho, pasand aaye tabhi join karo!</p>
-  
-  <a href="https://wa.me/919580712072?text=Hi%20Tutor%20Vistaar!%20Mujhe%202%20Day%20FREE%20Demo%20book%20karna%20hai.%20Class%20-%20" 
-     style="display:block; background:#25D366; color:white; text-decoration:none; padding:14px; border-radius:12px; font-size:18px; font-weight:bold; margin-bottom:10px;">
-     📱 WhatsApp Pe FREE Demo Book Karo
-  </a>
-  
-  <a href="tel:9580712072" 
-     style="display:block; background:#0B5ED7; color:white; text-decoration:none; padding:12px; border-radius:12px; font-size:16px; font-weight:bold;">
-     📞 Call Karo - 9580712072
-  </a>
-  
-  <p style="margin:10px 0 0 0; font-size:13px; color:#777;">UKG to Class 12th • All Subjects • Sahjanwa, Gorakhpur</p>
-</div>
-<div class="main-title">
-<h2>Learn Better • Teach Better</h2>
-<p>Get expert tutors at home or teach and earn</p>
-</div>
-<div style="padding:12px;">
-  <div style="background:#e3f2fd; padding:16px; border-radius:16px; text-align:center;">
-    <h2 style="color:#0a1931; margin:0 0 8px 0;">📚 Class 10 Free Tests</h2>
-    <p style="margin:0 0 12px 0; font-size:13px; color:gray;">Free me test do, apni taiyari check karo!</p>
-    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-      <a href="maths-practice-test.html" style="padding:10px 16px; background:#1877ff; color:white; border-radius:10px; text-decoration:none; font-size:13px;">Maths</a>
-      <a href="science-practice-test.html" style="padding:10px 16px; background:#2e7d32; color:white; border-radius:10px; text-decoration:none; font-size:13px;">Science</a>
-      <a href="sst-practice-test.html" style="padding:10px 16px; background:#f77000; color:white; border-radius:10px; text-decoration:none; font-size:13px;">SST</a>
-      <a href="english-practice-test.html" style="padding:10px 16px; background:#7b1fa2; color:white; border-radius:10px; text-decoration:none; font-size:13px;">English</a>
-      <a href="hindi-practice-test.html" style="padding:10px 16px; background:#c62828; color:white; border-radius:10px; text-decoration:none; font-size:13px;">Hindi</a>
-    </div>
-  </div>
-</div>
-<div class="cards">
-<a class="card card-blue" onclick="showForm('find')">
-<div style="font-size:28px">🔍</div>
-<h3>Find a Tutor</h3>
-<p>Hire verified tutors</p>
-</a>
-<a class="card card-orange" onclick="showForm('become')">
-<div style="font-size:28px">🎓</div>
-<h3>Become a Tutor</h3>
-<p>Join as a tutor & earn</p>
-</a>
+<img src="IMG-20261027-WA0000.jpg" style="width:170px; height:170px; object-fit:cover; border-radius:50%; border:4px solid #0B5ED7;">
+<h3 style="margin:8px 0 0 0;">Sumit Sir</h3>
+<p style="margin:2px 0; color:#555; font-size:14px;">Founder - Tutor Vistaar | Home Tuition Expert</p>
+<p style="margin:2px 0; text-align:center; color:#0B5ED7; font-weight:bold; font-size:14px;">5+ Saal Experience | 100+ Students Padha Chuke</p>
 </div>
 
-<div id="findForm" class="form-section">
-<h3>Find a Tutor Form</h3>
-<input type="text" id="f1" placeholder="Student Name">
-<input type="text" id="f2" placeholder="Class">
-<input type="text" id="f3" placeholder="Subject">
-<input type="text" id="f4" placeholder="Your Mobile Number">
-<button onclick="sendWA('find')">Send on WhatsApp</button>
+<div style="background:#FFF3CD; border:2px solid #FFB300; border-radius:16px; padding:18px; margin:15px; text-align:center;">
+<h2 style="margin:0; font-size:22px; color:#1A1A1A;">🎁 2 Day FREE Demo Class</h2>
+<p style="margin:8px 0 14px 0; color:#555; font-size:15px;">Pehle padh ke dekho, pasand aaye tabhi join karo!</p>
+<a href="https://wa.me/919580712072?text=Hi%20Tutor%20Vistaar%20!%20Mujhe%202%20Day%20FREE%20Demo%20book%20karna%20hai" style="display:block; background:#25D366; color:white; text-decoration:none; padding:14px; border-radius:12px; font-weight:bold; font-size:16px;">📲 FREE Demo Book Karo</a>
 </div>
 
-<div id="becomeForm" class="form-section">
-<h3>Become a Tutor Form</h3>
-<input type="text" id="b1" placeholder="Your Full Name">
-<input type="text" id="b2" placeholder="Qualification">
-<input type="text" id="b3" placeholder="Subjects You Teach">
-<input type="text" id="b4" placeholder="Your Mobile Number">
-<button onclick="sendWA('become')">Join as Tutor</button>
+<div class="card">
+<h2>📖 Kya Padhate Hain?</h2>
+<ul>
+<li>Class 1 se 10 tak - Sabhi Subjects</li>
+<li>Class 11-12 - Physics, Chemistry, Maths, Biology</li>
+<li>Hindi & English Medium Dono</li>
+<li>Board Exam + Test Ki Taiyari</li>
+</ul>
 </div>
 
-<div style="height:100px"></div>
-
-<div class="bottom-nav">
-<a href="#">🏠<br>Home</a>
-<a onclick="showForm('find')">🔍<br>Find</a>
-<a href="https://wa.me/919580712072">💬<br>WhatsApp</a>
-<a href="tel:+919580712072">📞<br>Call</a>
+<div class="card">
+<h2>⭐ Kyu Choose Karein Tutor Vistaar?</h2>
+<ul>
+<li>✅ Ghar pe aake padhate hain - Sahjanwa me</li>
+<li>✅ Har bachche pe alag dhyan</li>
+<li>✅ Weekly Test + Parents ko Report</li>
+<li>✅ Kam Fees, Best Quality</li>
+</ul>
 </div>
 
-<script>
-function showForm(type){
-document.getElementById('findForm').classList.remove('active');
-document.getElementById('becomeForm').classList.remove('active');
-if(type=='find') document.getElementById('findForm').classList.add('active');
-else document.getElementById('becomeForm').classList.add('active');
-window.scrollTo({top:280,behavior:'smooth'});
-}
-function sendWA(type){
-let msg="";
-if(type=='find'){
-let n=document.getElementById('f1').value, c=document.getElementById('f2').value, s=document.getElementById('f3').value, m=document.getElementById('f4').value;
-msg=`Hello Tutor Vistaar, I want a tutor%0AName: ${n}%0AClass: ${c}%0ASubject: ${s}%0AMobile: ${m}`;
-}else{
-let n=document.getElementById('b1').value, c=document.getElementById('b2').value, s=document.getElementById('b3').value, m=document.getElementById('b4').value;
-msg=`Hello Tutor Vistaar, I want to become a tutor%0AName: ${n}%0AQualification: ${c}%0ASubjects: ${s}%0AMobile: ${m}`;
-}
-window.open("https://wa.me/919580712072?text="+msg,"_blank");
-}
-</script>
+<div class="card" style="text-align:center;">
+<h2>📞 Sampark Karein</h2>
+<p>Sumit Sir - Sahjanwa, Gorakhpur</p>
+<a href="https://wa.me/919580712072" style="display:block; background:#0B5ED7; color:white; text-decoration:none; padding:14px; border-radius:12px; font-weight:bold;">WhatsApp Pe Baat Karo</a>
+<p style="font-size:13px; color:#888; margin-top:10px;">© 2026 Tutor Vistaar Sahjanwa</p>
+</div>
+
+<div class="bottom">
+<a href="tel:9580712072">📞 Call</a>
+<a href="https://wa.me/919580712072">💬 WhatsApp</a>
+<a href="#">🏠 Home</a>
+</div>
 
 </body>
 </html>
